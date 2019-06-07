@@ -34,13 +34,26 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+    Semantic HTML in enssence is the grammar used to write HTML.  Without an exclamation point we  wouldn't understand someones excitement when describing an excitng moment.  Questions would read as statements. So on and so fourth.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+    Display block means the content is displayed as a block.  the content will have some white space above and below it.  No other elements can be set next to it.
+
+    Display inline means the contents/elements are displayed 'on a line' and not a box.
+
+
 
 3. What are the 4 areas of the box model?
 
+    Border, Margin, Padding, content.
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+    The answer depends on if the axis is set to column or row.  If column, align-items works on the verticle line. If the it's set to row, align items would affect the content horizontally.
 
 5. Explain why git is valuable to a team of developers.
+
+    Git (although complicated) helps teams collaborate, share, and expirment on code without effecting the master (original code).  You can look back to check on any changes you (and others) have made in the past.  It's a safe guard in many ways.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -52,13 +65,13 @@ You are expected to be able to answer all these questions. Your responses contri
 - [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
- 
+
 Follow these steps for completing your project.
 
 - [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
 - [ ] Add your project manager as a reviewer on the pull-request
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
- 
+
 
 
 ## Minimum Viable Product
@@ -100,7 +113,7 @@ In your solution, it is essential that you follow best practices and produce cle
 
 After finishing your required elements, you can push your work further. These goals may or may not be things you have learned in this module but they build on the material you just studied. Time allowing, stretch your limits and see if you can deliver on the following optional goals:
 
-* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.  
+* [ ] Build a page of your choosing from the navigation items.  Come up with content and images that fit the theme.
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
