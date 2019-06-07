@@ -210,6 +210,7 @@ footer nav a {
 
 }
 
+
 /* middle content styling */
 .middle-content {
     display: flex;
@@ -229,6 +230,23 @@ footer nav a {
 .boxes{
     width: 760px;
     margin-left: 11px;
+}
+
+
+.box1{background: teal !important}
+.box2{background: gold !important}
+.box3{background: cadetblue !important}
+.box4{background: coral !important}
+.box5{background: crimson !important}
+.box6{background: forestgreen !important}
+.box7{background: darkorchid !important}
+.box8{background: hotpink !important}
+.box9{background: indigo !important}
+.box10{background: dodgerblue !important}
+
+
+.middle-content .boxes .box .box1{
+    background: blue;
 }
 
 /* Home page design Ends */
@@ -299,4 +317,10 @@ img {
 /* footer content */
 .footer_content {
     margin-bottom: 20px;
+}
+
+/* contact us */
+.contact_us {
+    display: flex;
+    flex-direction: column
 }
