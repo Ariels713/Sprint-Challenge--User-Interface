@@ -49,6 +49,7 @@ Edit this document to include your answers after each question. Make sure to lea
     Border, Margin, Padding, content.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+
     The answer depends on if the axis is set to column or row.  If column, align-items works on the verticle line. If the it's set to row, align items would affect the content horizontally.
 
 5. Explain why git is valuable to a team of developers.

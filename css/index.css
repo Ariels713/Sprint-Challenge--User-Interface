@@ -233,16 +233,17 @@ footer nav a {
 }
 
 
-.box1{background: teal !important}
-.box2{background: gold !important}
-.box3{background: cadetblue !important}
-.box4{background: coral !important}
-.box5{background: crimson !important}
-.box6{background: forestgreen !important}
-.box7{background: darkorchid !important}
-.box8{background: hotpink !important}
-.box9{background: indigo !important}
-.box10{background: dodgerblue !important}
+.container .middle-content .box1{background: teal}
+.container .middle-content .box2{background: gold}
+.container .middle-content .box3{background: cadetblue}
+.container .middle-content .box4{background: coral}
+.container .middle-content .box5{background: crimson}
+.container .middle-content .box6{background: forestgreen}
+.container .middle-content .box7{background: darkorchid}
+.container .middle-content .box8{background: hotpink}
+.container .middle-content .box9{background: indigo}
+.container .middle-content .box10{background: dodgerblue}
+
 
 
 .middle-content .boxes .box .box1{
