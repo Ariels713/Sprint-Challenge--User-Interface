@@ -233,7 +233,7 @@ footer nav a {
 }
 
 
-.container .middle-content .box1{background: teal}
+.middle-content .boxes .box1{background: teal}
 .container .middle-content .box2{background: gold}
 .container .middle-content .box3{background: cadetblue}
 .container .middle-content .box4{background: coral}
@@ -321,7 +321,26 @@ img {
 }
 
 /* contact us */
-.contact_us {
-    display: flex;
-    flex-direction: column
+.container .contact_us {
+    display: block;
+}
+
+form {
+    transition: all 4s ease-in-out;
+}
+
+.form_control {
+    width: 300px;
+    background: white;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+input {
+    width: 500px;
+}
+
+label .e_mail {
+    width: 400px;
 }

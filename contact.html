@@ -35,13 +35,15 @@
         <section class="contact_us">
             <form action="contactUs">
                 <label for="firstName">First Name</label>
-                <input type="text" name="FirstName" id="Please enter your name">
+                <input type="text" class="form_control" placeholder="Your Name" required><br>
                 <label for="LastName">Last Name</label>
-                <input type="text" name="LastName" id="Please enter your last name">
-                <label for="Email">Email</label>
-                <input type="text" name="Email" id="Please enter your email">
+                <input type="text" class="form_control" placeholder="Your Last Name" required><br>
+                <label for="Email" class="e_mail">Email</label>
+                <input type="text" class="form_control" placeholder="Your Email Adrees" required><br>
                 <label for="subject">subject</label>
-                <textarea name="subject" id="" cols="30" rows="10"></textarea>
+                <textarea name="subject" class="form_control" cols="30" rows="10" placeholder="Message" required></textarea><br>
+                <label for="submit">Hit Submit when ready!</label><br>
+                <input type="submit" class="form_control_sumbit" value="Send Message">
 
             </form>
         </section>
